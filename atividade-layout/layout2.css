@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 150px 1fr 150px;
+}
+header{
+    background-color: thistle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+main{
+    background-color: skyblue;
+    display: flex;
+}
+.article{
+    background-color: pink;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.aside{
+    background-color: lightpink;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.nav{
+    background-color: palevioletred;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+footer{
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}

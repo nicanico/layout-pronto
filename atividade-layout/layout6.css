@@ -1,0 +1,115 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "div-nav header" 
+        "div-nav main" 
+        "div-nav footer";
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-columns: 10%;
+
+}
+header{
+    grid-area: header;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+}
+.container-box1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.box1{
+    width: 90px;
+    height: 90px;
+    background-color: aquamarine;
+    
+}
+main{
+    grid-area: main;
+    display: grid;
+    grid-template-areas: "article aside";
+    grid-template-columns: 4fr 150px;
+}
+.aside{
+    grid-area: aside;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.container-box4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.box4{
+    width: 90px;
+    height: 90px;
+    background-color: aquamarine;
+}
+.article{
+    grid-area: article;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.container-box3{
+    display: flex;
+    gap: 40px;
+}
+.article1{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.article2{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.article3{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.box3{
+    width: 90px;
+    height: 90px;
+    background-color: aquamarine;
+}
+.div-nav{
+    grid-area: div-nav;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.container-box2{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.box2{
+    width: 90px;
+    height: 90px;
+    background-color: aquamarine;
+}
+footer{
+    grid-area: footer;
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.box5{
+    width: 90px;
+    height: 90px;
+    background-color: aquamarine;
+}

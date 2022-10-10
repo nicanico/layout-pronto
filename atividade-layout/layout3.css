@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "div-nav header" 
+        "div-nav main" 
+        "div-nav footer";
+    grid-template-rows: 150px 1fr 150px;
+    grid-template-columns: 10%;
+
+}
+header{
+    grid-area: header;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+main{
+    grid-row: main;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.div-nav{
+    grid-area: div-nav;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+footer{
+    grid-area: footer;
+    background-color: darkviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
